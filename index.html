@@ -60,6 +60,8 @@ p{margin:0 0 1.1rem;max-width:40rem}
 .btn{display:inline-block;padding:.8rem 1.4rem;border:1px solid var(--amber);color:var(--amber);text-decoration:none;font-weight:500;border-radius:2px}
 .btn:hover{background:var(--amber);color:#16110a}
 .reel p{margin:0 0 1.1rem;color:var(--muted)}
+.reel{position:relative}
+.reel iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
 
 /* Credits list, like a film credit roll */
 .credits{list-style:none;margin:0;padding:0}
@@ -113,13 +115,7 @@ footer{padding:2rem 0 3rem;color:var(--muted);font-size:.9rem}
 <section id="reel">
   <h2>Reel</h2>
   <div class="reel">
-    <!-- To embed your reel here, replace the div contents below with:
-         <iframe src="https://player.vimeo.com/video/YOUR_VIDEO_ID" allow="fullscreen; picture-in-picture" allowfullscreen title="Character FX reel"></iframe>
-         Your video ID is the number at the end of its Vimeo link. -->
-    <div>
-      <p>Character FX reel on Vimeo.</p>
-      <iframe src="https://player.vimeo.com/video/391647395?title=0&amp;byline=0&amp;portrait=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="1920" height="1080" frameborder="0" allow="fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" title="Brian Crawford CFX Reel 2020"></iframe>
-    </div>
+    <iframe src="https://player.vimeo.com/video/391647395?title=0&amp;byline=0&amp;portrait=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" allow="fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" title="Brian Crawford CFX Reel 2020"></iframe>
   </div>
 </section>
 
